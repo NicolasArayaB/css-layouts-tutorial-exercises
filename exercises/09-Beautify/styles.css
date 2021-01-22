@@ -1,29 +1,57 @@
+#wrapper {
+	display: flex;
+	height: 300px;
+	width: 600px;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+	padding: 25px;
+}
+
 #div1 {
 	background-color: red;
-	width: 150px;
-	float: left;
-	height: 100px;
-	padding: 100px;
-	text-align: center;
-	border-radius: 50px;
+	height: 50%;
+	width: 100%;
+	border-radius: 25px;
 }
+
 #div2 {
 	background-color: blue;
-	height: 100px;
-	width: 150px;
-	padding: 25px;
-	color: white;
-	text-align: center;
-	overflow: hidden;
+	height: 50%;
+	width: 100%;
 	border-radius: 25px;
 }
+
 #div3 {
-	background-color: yellow;
-	height: 100px;
-	width: 150px;
-	padding: 25px;
+	background-color: blue;
 	color: white;
-	text-align: center;
-	overflow: hidden;
-	border-radius: 25px;
+	height: 15%;
+	width: 100%;
+	border-radius: 15px;
+}
+
+#div4 {
+	background-color: yellow;
+	color: white;
+	height: 15%;
+	width: 100%;
+	border-radius: 15px;
+}
+
+#div5 {
+	background-color: red;
+	color: white;
+	height: 15%;
+	width: 100%;
+	border-radius: 15px;
+}
+
+#div6 {
+	background-color: black;
+	color: white;
+	height: 15%;
+	width: 100%;
+	border-radius: 15px;
 }
